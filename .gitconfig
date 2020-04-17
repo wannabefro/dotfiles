@@ -1,0 +1,15 @@
+[alias]
+  co = checkout
+  st = status
+  l = log --all --decorate --oneline --graph
+  f = fetch
+  ro = "git fetch && git rebase origin/master"
+  rim = "git fetch && git rebase -i origin/master"
+  ds = diff --staged
+[core]
+  excludesfile = ~/.gitignore
+  autocrlf = input
+[rebase]
+  autosquash = true
+[include]
+  path = ~/.gitconfig.local
