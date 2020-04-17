@@ -1,0 +1,3 @@
+alias g="git"
+
+[ -f ".aliases.local" ] && source ".aliases.local"
